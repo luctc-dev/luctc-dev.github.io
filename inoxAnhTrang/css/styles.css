@@ -281,6 +281,7 @@
 		height: 30px;
 		line-height: 30px;
 	}
+
 /*============ Main Carousel ============*/
 	.main-carousel .item {
 		outline: 0;
@@ -709,11 +710,6 @@
 			padding-right: 15px;
 		}
 	}
-	@media screen and (max-width: 1024px) {
-		/*1080 -> 992*/
-	}
-
-
 	@media screen and (max-width: 991px) {
 		/*768 -> 991*/
 		.col-9,
@@ -897,6 +893,12 @@
 
 	@media screen and (max-width: 380px) {
 		/*380 -> 321*/
+		.tcl-column-4 .item {
+			width: 100%;
+		}
+		.tcl-column-4 .item:nth-child(2) {
+			margin-top: 30px;
+		}
 	}
 
 	@media screen and (max-width: 320px) {
