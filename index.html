@@ -1,18 +1,718 @@
 <!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Trần Công Lực</title>
-    <meta charset="utf-8">
-    <meta name="description" content="Résumé of Tran Cong Luc. Mentor at http://hocvoichuyengia.com">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
-    <link rel="icon" href="./src/assets/logo.png" type="image/png">
-    <!-- <link rel="shortcut icon" href="/path/to/icons/favicon.ico"> -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=vietnamese" rel="stylesheet">
-    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  </head>
-  <body>
-    <div id="app"></div>
-    <script src="/dist/build.js"></script>
-  </body>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title>Trần Công Lực</title>
+
+	<meta name="description" content="Résumé of Tran Cong Luc. Mentor at http://hocvoichuyengia.com">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=vietnamese"
+		rel="stylesheet">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+	<link rel="icon" href="http://127.0.0.1:5500/src/assets/logo.png" type="image/png">
+	<!-- <link rel="shortcut icon" href="/path/to/icons/favicon.ico"> -->
+	<link href="./cv_files/css" rel="stylesheet">
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<style type="text/css">
+		#app {
+			padding: 10px 0;
+			position: relative
+		}
+
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box
+		}
+
+		a:active,
+		a:focus,
+		a:visited,
+		a:hover {
+			color: #275bf3;
+		}
+
+		body {
+			font-size: 16px;
+			color: #19282e;
+			font-weight: 400;
+			line-height: 1.425;
+			font-family: Open Sans, sans-serif
+		}
+
+		.container {
+			width: 1100px;
+			margin: 0 auto;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			padding-left: 20px;
+			display: table;
+			box-shadow: 1px 1px 6px 0 rgba(28, 34, 47, .5)
+		}
+
+		img {
+			max-width: 100%
+		}
+
+		.lang {
+			position: fixed;
+			right: 0;
+			top: 50%;
+			list-style: none;
+			-webkit-transform: translate(85px, -50%);
+			-ms-transform: translate(85px, -50%);
+			-o-transform: translate(85px, -50%);
+			transform: translate(85px, -50%)
+		}
+
+		.lang li {
+			background-color: #1c222f;
+			padding: 10px;
+			position: relative;
+			width: 140px;
+			border-top-left-radius: 4px;
+			border-bottom-left-radius: 4px;
+			-webkit-transform: translateX(0);
+			-ms-transform: translateX(0);
+			-o-transform: translateX(0);
+			transform: translateX(0);
+			-webkit-transition: all .5s ease;
+			-o-transition: all .5s ease;
+			transition: all .5s ease;
+			cursor: pointer
+		}
+
+		.lang li:hover {
+			-webkit-transform: translateX(-85px);
+			-ms-transform: translateX(-85px);
+			-o-transform: translateX(-85px);
+			transform: translateX(-85px)
+		}
+
+		.lang li+li {
+			margin-top: 2px
+		}
+
+		.lang li img {
+			width: 35px;
+			margin-right: 10px
+		}
+
+		.lang li img,
+		.lang li span {
+			display: inline-block;
+			vertical-align: middle
+		}
+
+		.lang li span {
+			color: #fff;
+			padding-left: 10px
+		}
+
+		.lang li span:before {
+			content: "";
+			left: 55px;
+			top: 0;
+			height: 100%;
+			width: 1px;
+			background-color: #fff;
+			display: block;
+			position: absolute
+		}
+	</style>
+	<style type="text/css">
+		#sidebar {
+			display: table-cell;
+			vertical-align: top;
+			width: 33.3333%;
+			background-color: #1c222f;
+			min-height: 900px;
+			color: #fff
+		}
+
+		.wrapper-widgets {
+			padding: 60px 25px
+		}
+
+		.title-widgets {
+			position: relative;
+			margin-bottom: 13px
+		}
+
+		.title-widgets:after {
+			content: "";
+			display: block;
+			width: 20px;
+			height: 2px;
+			background-color: #fff
+		}
+
+		.title-widgets h2 {
+			font-size: 18px;
+			font-weight: 600;
+			text-transform: uppercase
+		}
+
+		.widgets .content {
+			font-size: 14px;
+			font-weight: 300
+		}
+
+		.widgets+.widgets {
+			margin-top: 65px
+		}
+	</style>
+	<style type="text/css">
+		.avatar[data-v-613ec977] {
+			position: relative
+		}
+
+		.avatar[data-v-613ec977]:before {
+			content: "";
+			display: block;
+			padding-top: 110%
+		}
+
+		.avatar a[data-v-613ec977] {
+			position: absolute;
+			display: block;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0
+		}
+
+		.avatar img[data-v-613ec977] {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			object-fit: cover
+		}
+
+		.block-content .item[data-v-613ec977] {
+			padding: 14px 20px;
+			font-size: 0;
+			background: #72ceed;
+			background: -moz-linear-gradient(top, #72ceed 0, #27bbec 100%);
+			background: -webkit-gradient(left top, left bottom, color-stop(0, #72ceed), color-stop(100%, #27bbec));
+			background: -webkit-linear-gradient(top, #72ceed, #27bbec);
+			background: -o-linear-gradient(top, #72ceed 0, #27bbec 100%);
+			background: -ms-linear-gradient(top, #72ceed 0, #27bbec 100%);
+			background: linear-gradient(180deg, #72ceed 0, #27bbec);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#72ceed", endColorstr="#27bbec", GradientType=0)
+		}
+
+		.block-content .icons[data-v-613ec977] {
+			width: 25px;
+			height: 25px;
+			border: 1px solid #fff;
+			border-radius: 100%;
+			margin-right: 15px;
+			display: inline-block;
+			vertical-align: middle;
+			font-size: 17px;
+			line-height: 24px;
+			text-align: center
+		}
+
+		.block-content .icons+span[data-v-613ec977] {
+			display: inline-block;
+			vertical-align: middle;
+			max-width: calc(100% - 40px);
+			font-size: 14px;
+			font-weight: 600
+		}
+	</style>
+	<style type="text/css">
+		.personal-vision .content[data-v-a25dd8ac] {
+			line-height: 24px
+		}
+	</style>
+	<style type="text/css">
+		.personal .content[data-v-0ebebf87] {
+			list-style: none
+		}
+
+		.personal .content li[data-v-0ebebf87] {
+			font-size: 0
+		}
+
+		.personal .content li+li[data-v-0ebebf87] {
+			margin-top: 5px
+		}
+
+		.personal .content li span[data-v-0ebebf87] {
+			display: inline-block;
+			vertical-align: middle;
+			font-size: 16px;
+			position: relative
+		}
+
+		.personal .content li span[data-v-0ebebf87]:first-child {
+			width: 40%
+		}
+
+		.personal .content li span[data-v-0ebebf87]:first-child:after {
+			content: ":";
+			display: inline-block;
+			position: absolute;
+			right: 12px
+		}
+
+		.personal .content li span[data-v-0ebebf87]:last-child {
+			width: 60%
+		}
+	</style>
+	<!-- Ahihi -->
+	<style type="text/css">
+		.experience ul {
+			list-style-type: none;
+			/* background-color: yellow; */
+		}
+
+		.experience ul li {
+			position: relative;
+			font-weight: 300;
+			padding-left: 10px;
+			margin-bottom: 8px;
+		}
+
+		.experience ul li:before {
+			content: '- ';
+			position: absolute;
+			left: 0;
+		}
+
+		.experience .content[data-v-9726b56c] {
+			list-style: none
+		}
+
+		.experience .content li[data-v-9726b56c] {
+			font-size: 0
+		}
+
+		.experience .content li+li[data-v-9726b56c] {
+			margin-top: 5px
+		}
+
+		.experience .content li span[data-v-9726b56c] {
+			display: inline-block;
+			vertical-align: middle;
+			font-size: 14px;
+			position: relative
+		}
+
+		.experience .content li span[data-v-9726b56c]:first-child {
+			width: 40%
+		}
+
+		.experience .content li .percent[data-v-9726b56c] {
+			width: 60%
+		}
+
+		.experience .content li .percent[data-v-9726b56c]:before {
+			content: "";
+			width: 100%;
+			height: 7px;
+			display: block;
+			background-color: #fff
+		}
+
+		.experience .content li .percent[data-v-9726b56c]:after {
+			content: "";
+			width: var(--percent);
+			display: block;
+			height: 7px;
+			position: absolute;
+			background-color: #29abe2;
+			top: 0;
+			left: 0
+		}
+	</style>
+	<style type="text/css">
+		#main-content {
+			display: table-cell;
+			vertical-align: top
+		}
+
+		.intro-content {
+			margin-bottom: 27px;
+			padding: 20px 0 0 30px
+		}
+
+		.intro-content .name {
+			font-size: 45px;
+			color: #29bbec;
+			font-weight: 700;
+			letter-spacing: 4px;
+			position: relative;
+			line-height: 1.1
+		}
+
+		.intro-content .name:after {
+			content: "";
+			height: 3px;
+			width: 50px;
+			display: block;
+			background-color: #29bbec
+		}
+
+		.intro-content .position {
+			font-size: 19px;
+			text-transform: uppercase;
+			font-weight: 600;
+			letter-spacing: 2px;
+			margin-top: 17px
+		}
+
+		.intro-content .description {
+			font-size: 16px;
+			font-weight: 600;
+			margin-top: 15px;
+			line-height: 1.5
+		}
+
+		.widgets-content+.widgets-content {
+			margin-top: 50px
+		}
+
+		.widgets-content .main-title {
+			position: relative;
+			background-color: #19282e;
+			color: #fff;
+			height: 45px;
+			line-height: 44px;
+			margin-bottom: 25px
+		}
+
+		.widgets-content .main-title h2 {
+			font-weight: 400;
+			font-size: 17px;
+			text-transform: uppercase;
+			padding-left: 31px;
+			position: relative
+		}
+
+		.widgets-content .main-title h2:after {
+			content: "";
+			width: 22px;
+			height: 2px;
+			display: block;
+			background-color: #fff;
+			position: absolute;
+			bottom: 8px;
+			left: 32px
+		}
+
+		.list-info {
+			padding: 0 31px
+		}
+
+		.exp-block {
+			display: flex
+		}
+
+		.exp-block+.exp-block {
+			margin-top: 25px
+		}
+
+		.exp-block .position {
+			font-weight: 700;
+			font-size: 14px;
+			margin-bottom: 8px
+		}
+
+		.exp-block .time {
+			font-size: 15px
+		}
+
+		.exp-block .company {
+			font-size: 14px;
+			margin-bottom: 10px;
+			font-weight: 600;
+			text-transform: uppercase
+		}
+
+		.exp-block .description {
+			font-size: 15px;
+		}
+
+		.exp-block .left {
+			flex-basis: 33.3333%
+		}
+
+		.exp-block .right {
+			flex-basis: 66.6666%
+		}
+	</style>
+	<style type="text/css"></style>
+	<style type="text/css"></style>
+	<style type="text/css">
+		.hobbies .content[data-v-61755a2e] {
+			padding: 0 40px;
+			padding-top: 20px
+		}
+
+		.hobbies ul li[data-v-61755a2e] {
+			margin-right: 80px;
+			display: inline-block
+		}
+
+		.hobbies ul li[data-v-61755a2e]:last-child {
+			margin-left: 0
+		}
+
+		.hobbies ul li img[data-v-61755a2e],
+		.hobbies ul li span[data-v-61755a2e] {
+			display: block;
+			margin: 0 auto
+		}
+
+		.hobbies ul li img[data-v-61755a2e] {
+			height: 35px
+		}
+
+		.hobbies ul li span[data-v-61755a2e] {
+			text-align: center;
+			font-weight: 600;
+			margin-top: 8px
+		}
+	</style>
+</head>
+
+<body cz-shortcut-listen="true">
+	<div id="app">
+		<div class="container">
+			<div id="sidebar">
+				<div data-v-613ec977="" class="profile" lang="en">
+					<div data-v-613ec977="" class="avatar"><a data-v-613ec977="" target="_blank"
+							href="https://www.facebook.com/congluc1902"><img data-v-613ec977=""
+								src="cv_files/avatar.png" alt="Tran Cong Luc"></a></div>
+					<div data-v-613ec977="" class="block-content">
+						<div data-v-613ec977="" class="item phone"><i data-v-613ec977=""
+								class="icons ion-ios-telephone"></i> <span data-v-613ec977="">+84 343 261 825</span>
+						</div>
+						<div data-v-613ec977="" class="item email"><i data-v-613ec977=""
+								class="icons ion-ios-email"></i> <span
+								data-v-613ec977="">luctc.developer1902@gmail.com</span></div>
+						<div data-v-613ec977="" class="item email"><i data-v-613ec977=""
+								class="icons ion-social-linkedin"></i> <span
+								data-v-613ec977="">https://www.linkedin.com/in/luctc/</span></div>
+					</div>
+				</div>
+				<div class="wrapper-widgets">
+					<!-- <div data-v-a25dd8ac="" class="widgets personal-vision">
+						<div data-v-a25dd8ac="" class="title-widgets">
+							<h2 data-v-a25dd8ac="">Personal Vision</h2>
+						</div>
+						<p data-v-a25dd8ac="" class="content">I am young, enthusiastic, open-hearted and responsible boy
+							who is looking for opportunities to make an impact on society, develop my communication
+							skills, get experience and be a good Software Engineers.</p>
+					</div> -->
+					<div data-v-0ebebf87="" class="widgets personal">
+						<div data-v-0ebebf87="" class="title-widgets">
+							<h2 data-v-0ebebf87="">Personal Information</h2>
+						</div>
+						<ul data-v-0ebebf87="" class="content">
+							<li data-v-0ebebf87=""><span data-v-0ebebf87="">Birthday</span> <span
+									data-v-0ebebf87="">19th February 1997</span></li>
+							<li data-v-0ebebf87=""><span data-v-0ebebf87="">Relationship</span> <span
+									data-v-0ebebf87="">Single</span></li>
+							<li data-v-0ebebf87=""><span data-v-0ebebf87="">Residence</span> <span data-v-0ebebf87="">Ho
+									Chi Minh City</span></li>
+							<li data-v-0ebebf87=""><span data-v-0ebebf87="">Languages</span> <span
+									data-v-0ebebf87="">VietNamese, English</span></li>
+						</ul>
+					</div>
+					<div data-v-9726b56c="" class="widgets experience">
+						<div data-v-9726b56c="" class="title-widgets">
+							<h2 data-v-9726b56c="">Experiences</h2>
+						</div>
+						<ul>
+							<li>2 years of experience working with JavaScript, HTML, CSS, jQuery, Bootstrap</li>
+							<li>1 year of experience working with VueJs, VueX, ReactJs, Redux, NodeJs, MongoDb</li>
+							<!-- <li>1 year of experience working with ReactJs, Redux, NodeJs, MongoDB</li> -->
+						</ul>
+						<!-- <ul data-v-9726b56c=""
+							data="[{&quot;text&quot;:&quot;HTML/HTML5&quot;,&quot;percent&quot;:95},{&quot;text&quot;:&quot;CSS/CSS3&quot;,&quot;percent&quot;:95},{&quot;text&quot;:&quot;Jquery/JS&quot;,&quot;percent&quot;:75},{&quot;text&quot;:&quot;Bootstrap&quot;,&quot;percent&quot;:90},{&quot;text&quot;:&quot;ReactJS&quot;,&quot;percent&quot;:60},{&quot;text&quot;:&quot;VueJS&quot;,&quot;percent&quot;:70},{&quot;text&quot;:&quot;PSD/UI/UX&quot;,&quot;percent&quot;:50},{&quot;text&quot;:&quot;Responsive&quot;,&quot;percent&quot;:90},{&quot;text&quot;:&quot;Less/Sass&quot;,&quot;percent&quot;:80},{&quot;text&quot;:&quot;Golang&quot;,&quot;percent&quot;:60},{&quot;text&quot;:&quot;PHP&quot;,&quot;percent&quot;:50},{&quot;text&quot;:&quot;NodeJs&quot;,&quot;percent&quot;:70}]"
+							class="content">
+							<li data-v-9726b56c=""><span data-v-9726b56c="">HTML/HTML5</span> <span data-v-9726b56c=""
+									class="percent" style="--percent:95%;"></span></li>
+							<li data-v-9726b56c=""><span data-v-9726b56c="">CSS/CSS3</span> <span data-v-9726b56c=""
+									class="percent" style="--percent:95%;"></span></li>
+							<li data-v-9726b56c=""><span data-v-9726b56c="">Jquery/JS</span> <span data-v-9726b56c=""
+									class="percent" style="--percent:75%;"></span></li>
+							<li data-v-9726b56c=""><span data-v-9726b56c="">Bootstrap</span> <span data-v-9726b56c=""
+									class="percent" style="--percent:90%;"></span></li>
+							<li data-v-9726b56c=""><span data-v-9726b56c="">ReactJS</span> <span data-v-9726b56c=""
+									class="percent" style="--percent:60%;"></span></li>
+							<li data-v-9726b56c=""><span data-v-9726b56c="">VueJS</span> <span data-v-9726b56c=""
+									class="percent" style="--percent:70%;"></span></li>
+							<li data-v-9726b56c=""><span data-v-9726b56c="">PSD/UI/UX</span> <span data-v-9726b56c=""
+									class="percent" style="--percent:50%;"></span></li>
+							<li data-v-9726b56c=""><span data-v-9726b56c="">Responsive</span> <span data-v-9726b56c=""
+									class="percent" style="--percent:90%;"></span></li>
+							<li data-v-9726b56c=""><span data-v-9726b56c="">Less/Sass</span> <span data-v-9726b56c=""
+									class="percent" style="--percent:80%;"></span></li>
+							<li data-v-9726b56c=""><span data-v-9726b56c="">Golang</span> <span data-v-9726b56c=""
+									class="percent" style="--percent:60%;"></span></li>
+							<li data-v-9726b56c=""><span data-v-9726b56c="">PHP</span> <span data-v-9726b56c=""
+									class="percent" style="--percent:50%;"></span></li>
+							<li data-v-9726b56c=""><span data-v-9726b56c="">NodeJs</span> <span data-v-9726b56c=""
+									class="percent" style="--percent:70%;"></span></li>
+						</ul> -->
+					</div>
+
+					<div data-v-9726b56c="" class="widgets experience">
+						<div data-v-9726b56c="" class="title-widgets">
+							<h2 data-v-9726b56c="">Skills</h2>
+						</div>
+						<ul>
+							<li><strong style="font-weight:500;">Language:</strong> Javascript, Golang, PHP, C#</li>
+							<li><strong style="font-weight:500;">Frameworks:</strong> VueJs, ReactJs, ExpressJs</li>
+							<li><strong style="font-weight:500;">Databases:</strong> MongoDB, PostgreSQL</li>
+							<li><strong style="font-weight:500;">Other Skill:</strong> HTML, CSS, NodeJs, Git</li>
+							<!-- <li>1 year of experience working with ReactJs, Redux, NodeJs, MongoDB</li> -->
+						</ul>
+					</div>
+
+				</div>
+			</div>
+			<div class="main-content">
+				<div class="intro-content">
+					<h1 class="name">Tran Cong Luc</h1>
+					<p class="position">Software Engineer</p>
+					<p class="description">I am young, enthusiastic, open-hearted and responsible person who is looking
+						for opportunities to make an impact on society, develop my communication skills, get experience
+						and be a good Software Engineer. When I was a sophomore at the University, I self-studied about
+						Front End Website technologies and joined some Freelancer projects related to Front End for more
+						than a year with my teacher. It is an early motivation to motivate yourself to become a Full
+						Stack Developer in the future. In addition, I also like teaching, based on accumulated knowledge
+						to share with every people about my experiences through courses.</p>
+				</div>
+				<div data-v-674ab00c="" class="widgets-content experience">
+					<div data-v-674ab00c="" class="main-title">
+						<h2 data-v-674ab00c="">Relevant Work Experience</h2>
+					</div>
+					<div data-v-674ab00c="" class="list-info">
+						<div data-v-674ab00c="" class="exp-block">
+							<div data-v-674ab00c="" class="left">
+								<div data-v-674ab00c="" class="position">Front End Developer</div>
+								<div data-v-674ab00c="" class="time">11/2016 - 12/2017</div>
+							</div>
+							<div data-v-674ab00c="" class="right">
+								<div data-v-674ab00c="" class="company">solazu company limited</div>
+								<div data-v-674ab00c="" class="description">Convert PSD to HTML,CSS and JS. Do project
+									LandingPage for website and Wordpress Themes. Over 10 products are selling on
+									themeforest. The implement of some projects outsourcing of Japan.</div>
+							</div>
+						</div>
+						<div data-v-674ab00c="" class="exp-block">
+							<div data-v-674ab00c="" class="left">
+								<div data-v-674ab00c="" class="position">Back End Intern</div>
+								<div data-v-674ab00c="" class="time">06/2018 - 10/2018</div>
+							</div>
+							<div data-v-674ab00c="" class="right">
+								<div data-v-674ab00c="" class="company">rockship company limited</div>
+								<div data-v-674ab00c="" class="description">RockShip Company is where I completed my
+									graduation internship. I work as a Back-End Internship and implement a project about
+									Payment Gateway using Golang & PostgreSQL according to RESTful API standard. After
+									that I were assigned to Front End team in order to support my co-worker to implement
+									a project using Vue JS.
+								</div>
+							</div>
+						</div>
+						<div data-v-674ab00c="" class="exp-block">
+							<div data-v-674ab00c="" class="left">
+								<div data-v-674ab00c="" class="position">Mentor</div>
+								<div data-v-674ab00c="" class="time">09/2018 - Now</div>
+							</div>
+							<div data-v-674ab00c="" class="right">
+								<div data-v-674ab00c="" class="company">Hoc Voi Chuyen Gia Company Limited</div>
+								<div data-v-674ab00c="" class="description">Learning with experts is an online learning
+									program 1 expert - 1 student through tools like skype, teamview ... I work as a
+									Mentor for student about Front End technologies. <br>
+									<a href="https://hocvoichuyengia.com/">Link: hocvoichuyengia.com</a></div>
+							</div>
+						</div>
+
+						<div data-v-674ab00c="" class="exp-block">
+							<div data-v-674ab00c="" class="left">
+								<div data-v-674ab00c="" class="position">Student</div>
+								<div data-v-674ab00c="" class="time">08/2018 – 06/2019</div>
+							</div>
+							<div data-v-674ab00c="" class="right">
+								<div data-v-674ab00c="" class="company">Ho Chi Minh city University of Technology</div>
+								<div data-v-674ab00c="" class="description">Implement a project that is my thesis. The
+									title of thesis is "Building a system for Ho Chi Minh Communist Youth Union and
+									Vietnamese Students Association of an University".<br>
+									Skill Set Utilized: ReactJs, Redux, NodeJs, ExpressJs, MongoDB, Python
+									(Recommendation System)
+								</div>
+							</div>
+						</div>
+						<div data-v-674ab00c="" class="exp-block">
+							<div data-v-674ab00c="" class="left">
+								<div data-v-674ab00c="" class="position">Instructor</div>
+								<div data-v-674ab00c="" class="time">06/2019 - Now</div>
+							</div>
+							<div data-v-674ab00c="" class="right">
+								<div data-v-674ab00c="" class="company">Zend Vietnam Programming Joint Stock Company
+								</div>
+								<div data-v-674ab00c="" class="description">Develop online programming courses. Up to
+									now, the first course has been built is Javascript Framework Vue Js 2.x <br>
+									<a href="https://zendvn.com/khoa-hoc-lap-trinh-vuejs/">Link:
+										zendvn.com/khoa-hoc-lap-trinh-vuejs</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div data-v-058cdc8a="" class="widgets-content education">
+					<div data-v-058cdc8a="" class="main-title">
+						<h2 data-v-058cdc8a="">Education</h2>
+					</div>
+					<div data-v-058cdc8a="" class="list-info">
+						<div data-v-058cdc8a="" class="exp-block">
+							<div data-v-058cdc8a="" class="left">
+								<div data-v-058cdc8a="" class="position">Student</div>
+								<div data-v-058cdc8a="" class="time">2015 - 2019</div>
+							</div>
+							<div data-v-058cdc8a="" class="right">
+								<div data-v-058cdc8a="" class="company">Ho chi minh City university of technology</div>
+								<div data-v-058cdc8a="" class="description">I graduated from University with the
+									Bachelor of Engineer. My major is Computer Science. GPA 7.69</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div data-v-61755a2e="" class="widgets-content hobbies">
+					<div data-v-61755a2e="" class="main-title">
+						<h2 data-v-61755a2e="">Hobbies</h2>
+					</div>
+					<ul data-v-61755a2e="" class="content">
+						<li data-v-61755a2e=""><img data-v-61755a2e="" src="cv_files/music.png" alt="Music"> <span
+								data-v-61755a2e="">Music</span></li>
+						<li data-v-61755a2e=""><img data-v-61755a2e="" src="cv_files/sing.png" alt="Sing"> <span
+								data-v-61755a2e="">Sing</span></li>
+						<li data-v-61755a2e=""><img data-v-61755a2e="" src="cv_files/movie.png" alt="Movie"> <span
+								data-v-61755a2e="">Movie</span></li>
+						<li data-v-61755a2e=""><img data-v-61755a2e="" src="cv_files/travel.png" alt="Travel"> <span
+								data-v-61755a2e="">Travel</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- <ul class="lang">
+			<li><img src="./cv_files/Vietnam.png" alt="Việt Nam"><span>Việt Nam</span></li>
+			<li><img src="./cv_files/UK.png" alt="English"><span>English</span></li>
+		</ul> -->
+	</div>
+	<!-- <script src="./cv_files/build.js"></script> -->
+
+
+</body>
+
 </html>
