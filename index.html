@@ -7,7 +7,7 @@
 
 	<title>Trần Công Lực</title>
 
-	<meta name="description" content="Résumé of Tran Cong Luc. Mentor at http://hocvoichuyengia.com">
+	<meta name="description" content="Résumé of Tran Cong Luc.">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=vietnamese" rel="stylesheet">
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
 	<!-- <link rel="shortcut icon" href="/path/to/icons/favicon.ico"> -->
@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	<style type="text/css">
 		#app {
-			padding: 10px 0;
+			padding: 0;
 			position: relative
 		}
 
@@ -43,9 +43,9 @@
 		.container {
 			width: 1100px;
 			margin: 0 auto;
-			padding-top: 20px;
-			padding-bottom: 20px;
-			padding-left: 20px;
+			/* padding-top: 20px; */
+			/* padding-bottom: 20px; */
+			/* padding-left: 20px; */
 			display: table;
 			box-shadow: 1px 1px 6px 0 rgba(28, 34, 47, .5)
 		}
@@ -131,7 +131,8 @@
 		}
 
 		.wrapper-widgets {
-			padding: 60px 25px
+			padding: 60px 25px;
+			padding-top: 85px;
 		}
 
 		.title-widgets {
@@ -149,7 +150,7 @@
 
 		.title-widgets h2 {
 			font-size: 18px;
-			font-weight: 600;
+			font-weight: 400;
 			text-transform: uppercase
 		}
 
@@ -222,6 +223,10 @@
 			font-size: 14px;
 			font-weight: 600
 		}
+		.block-content .icons+span a {
+			text-decoration: none;
+			color: inherit;
+		}
 	</style>
 	<style type="text/css">
 		.personal-vision .content[data-v-a25dd8ac] {
@@ -274,7 +279,13 @@
 			position: relative;
 			font-weight: 300;
 			padding-left: 10px;
-			margin-bottom: 8px;
+			margin-bottom: 2px;
+			font-weight: 400;
+		}
+
+		.experience ul li strong {
+			padding-right: 5px;
+			font-weight: 600;
 		}
 
 		.experience ul li:before {
@@ -336,8 +347,9 @@
 		}
 
 		.intro-content {
+			position: relative;
 			margin-bottom: 27px;
-			padding: 20px 0 0 30px
+			padding: 20px 20px 0 30px
 		}
 
 		.intro-content .name {
@@ -362,7 +374,11 @@
 			text-transform: uppercase;
 			font-weight: 600;
 			letter-spacing: 2px;
-			margin-top: 17px
+			margin-top: 17px;
+
+			position: absolute;
+			top: 25px;
+			right: 25px;
 		}
 
 		.intro-content .description {
@@ -404,6 +420,10 @@
 			left: 32px
 		}
 
+		.hobbies.widgets-content:last-child .content {
+			padding-bottom: 30px;
+		}
+
 		.list-info {
 			padding: 0 31px
 		}
@@ -438,15 +458,26 @@
 		}
 
 		.exp-block .left {
-			flex-basis: 33.3333%
+			flex-basis: 25%
 		}
 
 		.exp-block .right {
-			flex-basis: 66.6666%
+			flex-basis: 75%
+		}
+
+		.description-list-block {
+			padding-top: 10px;
+			margin-top: 12px;
+			border-top: 1px solid rgb(25, 40, 46, 0.2);
+		}
+		.description-sub {
+			display: flex;
+			flex-direction: column;
+		}
+		.description-sub > span {
+			padding-left: 20px;
 		}
 	</style>
-	<style type="text/css"></style>
-	<style type="text/css"></style>
 	<style type="text/css">
 		.hobbies .content[data-v-61755a2e] {
 			padding: 0 40px;
@@ -486,7 +517,7 @@
 			<div id="sidebar">
 				<div data-v-613ec977="" class="profile" lang="en">
 					<div data-v-613ec977="" class="avatar"><a data-v-613ec977="" target="_blank"
-							href="https://www.facebook.com/congluc1902"><img data-v-613ec977="" src="cv_files/avatar.png"
+							href="https://www.facebook.com/congluc1902"><img data-v-613ec977="" src="cv_files/avatar.jpeg"
 								alt="Tran Cong Luc"></a></div>
 					<div data-v-613ec977="" class="block-content">
 						<div data-v-613ec977="" class="item phone"><i data-v-613ec977="" class="icons ion-ios-telephone"></i> <span
@@ -494,8 +525,12 @@
 						</div>
 						<div data-v-613ec977="" class="item email"><i data-v-613ec977="" class="icons ion-ios-email"></i> <span
 								data-v-613ec977="">luctc.developer1902@gmail.com</span></div>
+						<div data-v-613ec977="" class="item email"><i data-v-613ec977="" class="icons ion-ios-world"></i>
+							<span data-v-613ec977=""><a href="https://congluc.zendvn.com" target="_blank">https://congluc.zendvn.com</a></span></div>
 						<div data-v-613ec977="" class="item email"><i data-v-613ec977="" class="icons ion-social-linkedin"></i>
-							<span data-v-613ec977="">https://www.linkedin.com/in/luctc/</span></div>
+							<span data-v-613ec977=""><a href="https://www.linkedin.com/in/luctc/" target="_blank">https://www.linkedin.com/in/luctc/</a></span></div>
+						<div data-v-613ec977="" class="item email"><i data-v-613ec977="" class="icons ion-social-facebook"></i>
+							<span data-v-613ec977=""><a href="https://www.facebook.com/congluc1902/" target="_blank">https://www.facebook.com/congluc1902/</a></span></div>
 					</div>
 				</div>
 				<div class="wrapper-widgets">
@@ -507,6 +542,7 @@
 							who is looking for opportunities to make an impact on society, develop my communication
 							skills, get experience and be a good Software Engineers.</p>
 					</div> -->
+					
 					<div data-v-0ebebf87="" class="widgets personal">
 						<div data-v-0ebebf87="" class="title-widgets">
 							<h2 data-v-0ebebf87="">Personal Information</h2>
@@ -527,8 +563,8 @@
 							<h2 data-v-9726b56c="">Experiences</h2>
 						</div>
 						<ul>
-							<li>2 years of experience working with JavaScript, HTML, CSS, jQuery, Bootstrap</li>
-							<li>1 year of experience working with VueJs, VueX, ReactJs, Redux</li>
+							<li style="font-weight: 300">2 years of experience working with Front End Design (HTML, SCSS, Javascript, jQuery).</li>
+							<li style="font-weight: 300">2 years of experience working with Javascript Libraries, Framework</li>
 							<!-- <li>1 year of experience working with ReactJs, Redux, NodeJs, MongoDB</li> -->
 						</ul>
 						<!-- <ul data-v-9726b56c=""
@@ -566,10 +602,10 @@
 							<h2 data-v-9726b56c="">Skills</h2>
 						</div>
 						<ul>
-							<li><strong style="font-weight:500;">Language:</strong> Javascript, Golang</li>
-							<li><strong style="font-weight:500;">Frameworks:</strong> VueJs, ReactJs, ExpressJs</li>
-							<li><strong style="font-weight:500;">Databases:</strong> MongoDB, PostgreSQL</li>
-							<li><strong style="font-weight:500;">Other Skill:</strong> HTML5, CSS3, NodeJs, Git</li>
+							<li style="font-weight: 300">Programming Language: Javascript</li>
+							<li style="font-weight: 300">JS Framework: ReactJs, NextJs, DraftJs, VueJs, NuxtJs</li>
+							<li style="font-weight: 300">UI Framework: Bootstrap, Ant Design</li>
+							<li style="font-weight: 300">Other Skills: NodeJs, MongoDB, Wordpress, Git, Docker</li>
 							<!-- <li>1 year of experience working with ReactJs, Redux, NodeJs, MongoDB</li> -->
 						</ul>
 					</div>
@@ -579,60 +615,116 @@
 			<div class="main-content">
 				<div class="intro-content">
 					<h1 class="name">Tran Cong Luc</h1>
-					<p class="position">Software Engineer</p>
-					<p class="description">I am young, enthusiastic, open-hearted and responsible person who is looking
+					<p class="position">Front End Developer</p>
+					<p class="description">
+						I am a young, enthusiastic, open-hearted, and responsible person. Well, I have been a Front End Developer now for several years and it has been a really rewarding and challenging experience, before that, I studied Computer Science at Ho Chi Minh University of Technology but now I am looking to find new opportunities at a higher level. I feel my experience has prepared me for new exciting challenges
+						<!-- I am young, enthusiastic, open-hearted and responsible person who is looking
 						for opportunities to make an impact on society, develop my communication skills, get experience
 						and be a good Software Engineer. When I was a sophomore at the University, I self-studied about
 						Front End Website technologies and joined some Freelancer projects related to Front End for more
 						than a year with my teacher. It is an early motivation to motivate yourself to become a Full
 						Stack Developer in the future. In addition, I also like teaching, based on accumulated knowledge
-						to share with every people about my experiences through courses.</p>
+						to share with every people about my experiences through courses. -->
+					</p>
 				</div>
 				<div data-v-674ab00c="" class="widgets-content experience">
 					<div data-v-674ab00c="" class="main-title">
-						<h2 data-v-674ab00c="">Relevant Work Experience</h2>
+						<h2 data-v-674ab00c="">Experiences</h2>
 					</div>
 					<div data-v-674ab00c="" class="list-info">
 						<div data-v-674ab00c="" class="exp-block">
 							<div data-v-674ab00c="" class="left">
 								<div data-v-674ab00c="" class="position">Front End Developer</div>
-								<div data-v-674ab00c="" class="time">11/2016 - 12/2017</div>
+								<div data-v-674ab00c="" class="time">03/2020 - 12/2021</div>
 							</div>
 							<div data-v-674ab00c="" class="right">
-								<div data-v-674ab00c="" class="company">solazu company limited</div>
-								<div data-v-674ab00c="" class="description">Convert PSD to HTML,CSS and JS. Do project
-									LandingPage for website and Wordpress Themes. Over 10 products are selling on
-									themeforest. The implement of some projects outsourcing of Japan.</div>
-							</div>
-						</div>
-						<div data-v-674ab00c="" class="exp-block">
-							<div data-v-674ab00c="" class="left">
-								<div data-v-674ab00c="" class="position">Back End Intern</div>
-								<div data-v-674ab00c="" class="time">06/2018 - 10/2018</div>
-							</div>
-							<div data-v-674ab00c="" class="right">
-								<div data-v-674ab00c="" class="company">rockship company limited</div>
-								<div data-v-674ab00c="" class="description">RockShip Company is where I completed my
-									graduation internship. I work as a Back-End Internship and implement a project about
-									Payment Gateway using Golang & PostgreSQL according to RESTful API standard.
+								<div data-v-674ab00c="" class="company">Ekino VietNam</div>
+								<div class="description">
+									<ul>
+										<li><strong>Project:</strong>HealthCare Locator (HCL)</li>
+										<li><strong>Description:</strong>Building a web application and a HealthCare Locator SDK to integrate with other apps</li>
+										<li><strong>Team Size:</strong>10+</li>
+										<li class="description-sub"><strong>Tech Stack:</strong>
+											<span>· HCL Website: HTML, SCSS, jQuery, Azure AD B2C, Symfony</span>
+											<span>· HCL Provisioning Tool: ReactJs, Typescript, Redux, Redux Toolkit</span>
+											<span>· HCL SDK: Typescript, StencilJs, GraphQL</span>
+										</li>
+										<li><strong>Role:</strong>Front End Developer</li>
+										<li class="description-sub">
+											<strong>Responsibilities:</strong>
+											<span>· Implementing Web Components using Stencil and GraphQL.</span>
+											<span>· Building a provisioning tool to allow administrator to manage packages.</span>
+											<span>· Building a web application to help users can access and order packages to get API Keys and integrate HCL SDK in their apps.</span>
+											<span>· Customizing UIs and Authentication Flow using Azure AD B2C custom policies</span>
+										</li>
+									</ul>
+									<ul class="description-list-block">
+										<li><strong>Project:</strong>Bouygues Print</li>
+										<li><strong>Description:</strong>Building a web application for Bouygues company to build content and print PDF</li>
+										<li><strong>Team Size:</strong>4</li>
+										<li><strong>Tech Stack:</strong>ReactJs, Typescript, MobX, Storybook, Lerna</li>
+										<li><strong>Role:</strong>Front End Developer</li>
+										<li style="display: flex;">
+											<strong>Responsibilities:</strong>
+											<span>Implementing UI Components and Logic for app</span>
+										</li>
+									</ul>
+									<ul class="description-list-block">
+										<li><strong>Project:</strong>Tekblog</li>
+										<li><strong>Description:</strong>Building an internal blog for a company</li>
+										<li><strong>Team Size:</strong>2</li>
+										<li><strong>Tech Stack:</strong>ReactJs, NextJs, Typescript, DraftJs, WP Rest API, Docker</li>
+										<li><strong>Role:</strong>Front End Developer, Mentor</li>
+										<li class="description-sub">
+											<strong>Responsibilities:</strong>
+											<span>· Implementing features, customizing some APIs using PHP</span>
+											<span>· Providing tasks and coding review for the training purpose</span>
+										</li>
+									</ul>
+									<ul class="description-list-block">
+										<li><strong>Project:</strong>Cheval Blanc</li>
+										<li><strong>Description: Maintaining and developing new features for a website in France to display content from Prismic CMS</strong></li>
+										<li><strong>Team Size:</strong>2</li>
+										<li><strong>Tech Stack:</strong>VueJs, VueX</li>
+										<li><strong>Role:</strong>Front End Developer</li>
+										<li style="display: flex;">
+											<strong>Responsibilities:</strong>
+											<span>Implementing UI Components and Logic for app</span>
+										</li>
+									</ul>
 								</div>
 							</div>
 						</div>
+						
 						<div data-v-674ab00c="" class="exp-block">
 							<div data-v-674ab00c="" class="left">
-								<div data-v-674ab00c="" class="position">Mentor</div>
-								<div data-v-674ab00c="" class="time">09/2018 - Now</div>
+								<div data-v-674ab00c="" class="position">Freelancer/Mentor</div>
+								<div data-v-674ab00c="" class="time">06/2018 - Present</div>
 							</div>
 							<div data-v-674ab00c="" class="right">
-								<div data-v-674ab00c="" class="company">Hoc Voi Chuyen Gia Company Limited</div>
-								<div data-v-674ab00c="" class="description">Learning with experts is an online learning
-									program 1 expert - 1 student through tools like skype, teamview ... I work as a
-									Mentor for student about Front End technologies. <br>
-									Link: <a href="https://hocvoichuyengia.com/gioi-thieu/mentors/page/4/"
-										target="_blank">https://hocvoichuyengia.com</a></div>
+								<div data-v-674ab00c="" class="company">ZendVN</div>
+								<div class="description">
+									<ul>
+										<li><strong>Project:</strong> Khach san Hoa Yen, Giay da HQ, Programming Training</li>
+										<li><strong>Description:</strong>Working on some freelancer projects. Building online & offline courses are related to Front End Web Development.</li>
+										<li class="description-sub">
+											<strong>Responsibilities:</strong>
+											<span>
+												· Customizing and Setup WordPress themes<br>
+												· Building syllabus and Recording videos
+											</span>
+										</li>
+										<li>
+											<strong>Websites:</strong>https://congluc.zendvn.com
+										</li>
+										<li>
+											<strong>Wordpress Themes:</strong>http://khachsanhoayen.com/
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
-
+						<!-- <div style="color: #fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem blanditiis repudiandae voluptatum officia quo. Repudiandae illo soluta fugiat totam ipsam dignissimos. Exercitationem blanditiis repudiandae voluptatum officia quo. Repudiandae illo soluta fugiat totam ipsam dignissimos</div> -->
 						<div data-v-674ab00c="" class="exp-block">
 							<div data-v-674ab00c="" class="left">
 								<div data-v-674ab00c="" class="position">Student</div>
@@ -640,32 +732,37 @@
 							</div>
 							<div data-v-674ab00c="" class="right">
 								<div data-v-674ab00c="" class="company">Ho Chi Minh city University of Technology</div>
-								<div data-v-674ab00c="" class="description">Implement a project that is my thesis. The
-									title of thesis is "Building a system for Ho Chi Minh Communist Youth Union and
-									Vietnamese Students Association of an University".<br>
-									Skill Set Utilized: ReactJs, Redux, NodeJs, ExpressJs, MongoDB, Python
-									(Recommendation System)
+								<div class="description">
+									<ul>
+										<li><strong>Project:</strong>BK Youth</li>
+										<li><strong>Description:</strong>Building a system for Ho Chi Minh Communist Youth Union and Vietnamese Students Association of an University.</li>
+										<li><strong>Team Size:</strong>2</li>
+										<li><strong>Tech Stack:</strong>ReactJs, Redux, Redux Thunk, NodeJs, MongoDB, Python</li>
+										<li><strong>Roles:</strong>Leader and Developer</li>
+									</ul>
 								</div>
 							</div>
 						</div>
 						<div data-v-674ab00c="" class="exp-block">
 							<div data-v-674ab00c="" class="left">
-								<div data-v-674ab00c="" class="position">Instructor</div>
-								<div data-v-674ab00c="" class="time">06/2019 - Now</div>
+								<div data-v-674ab00c="" class="position">Front End Developer</div>
+								<div data-v-674ab00c="" class="time">11/2016 - 12/2017</div>
 							</div>
 							<div data-v-674ab00c="" class="right">
-								<div data-v-674ab00c="" class="company">Zend Vietnam Programming Joint Stock Company
-								</div>
-								<div data-v-674ab00c="" class="description">Develop online programming courses. Up to
-									now, the first course has been built is Javascript Framework VueJs 2.x <br>
-									Link: <a href="https://zendvn.com/khoa-hoc-lap-trinh-vuejs/"
-										target="_blank">https://zendvn.com/khoa-hoc-lap-trinh-vuejs</a>
+								<div data-v-674ab00c="" class="company">solazu vietnam</div>
+								<div data-v-674ab00c="" class="description">
+									<ul>
+										<li><strong>Project:</strong>Landing Page, Wordpress Themes</li>
+										<li><strong>Description:</strong>Building Web themes and Templates for sale on ThemeForest.</li>
+										<li><strong>Teck Stack:</strong>HTML, CSS(3), SCSS, Javascript, jQuery</li>
+										<li><strong>Role:</strong>Front End Developer</li>
+									</ul>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div data-v-058cdc8a="" class="widgets-content education">
+				<div data-v-058cdc8a="" class="widgets-content experience">
 					<div data-v-058cdc8a="" class="main-title">
 						<h2 data-v-058cdc8a="">Education</h2>
 					</div>
@@ -676,9 +773,14 @@
 								<div data-v-058cdc8a="" class="time">2015 - 2019</div>
 							</div>
 							<div data-v-058cdc8a="" class="right">
-								<div data-v-058cdc8a="" class="company">Ho chi minh City university of technology</div>
-								<div data-v-058cdc8a="" class="description">I graduated from University with the
-									Bachelor of Engineer. My major is Computer Science. GPA 7.69</div>
+								<div data-v-058cdc8a="" class="company">Ho chi minh City university of technology (BKU)</div>
+								<div class="description">
+									<ul>
+										<li><strong>Major:</strong>Computer Science</li>
+										<li><strong>Degree:</strong>Bachelor of Engineering</li>
+										<li><strong>GPA:</strong>7.69</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
