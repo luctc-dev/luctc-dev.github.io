@@ -387,6 +387,23 @@
 			margin-top: 15px;
 			line-height: 1.5
 		}
+		.intro-content .description span {
+			position: relative;
+			display: block;
+		}
+		.intro-content .description span + span {
+			padding-top: 8px;
+		}
+		.intro-content .description span::before {
+			/* content: ''; */
+			display: block;
+			width: 15px;
+			height: 2px;
+			background-color: #29bbec;
+			top: 11px;
+			left: -20px;
+			position: absolute;
+		}
 		.intro-content .description a {
 			color: inherit;
 			text-decoration: none;
@@ -436,7 +453,7 @@
 			display: flex
 		}
 
-		.exp-block+.exp-block {
+		div + .exp-block {
 			margin-top: 25px
 		}
 
@@ -458,7 +475,7 @@
 		}
 
 		.exp-block .description {
-			font-size: 15px;
+			font-size: 16px;
 		}
 
 		.exp-block .left {
@@ -512,6 +529,12 @@
 			font-weight: 600;
 			margin-top: 8px
 		}
+		@media print {
+    	.pagebreak { 
+				page-break-before: always;
+				padding-bottom: 50px;
+			} /* page-break-after works, as well */
+		}	
 	</style>
 </head>
 
@@ -591,11 +614,23 @@
 			<div class="main-content">
 				<div class="intro-content">
 					<h1 class="name">Tran Cong Luc</h1>
-					<p class="position">Senior Software Engineer</p>
+					<p class="position">Senior Front End Engineer</p>
 					<p class="description">
-						I am a young, enthusiastic, open-hearted, and responsible person. I have <strong>4 years of work experience</strong> as a Front End Engineer. My main tech stack is <strong>Javascript</strong>, Typescript, <strong>ReactJs</strong>, and NextJs. <br/>
-						Besides working at the office, I love sharing my Front End knowledge with everyone. I built a youtube channel more almost <strong>5.000 subscribers</strong> to upload my content related to Front End Development. <br />
-						<span style="word-break: break-all;">I also built <strong>4 online courses</strong> to teach my students how to code at <a href="https://zendvn.com/giang-vien-tran-cong-luc-18" target="_blank"><strong>https://zendvn.com/giang-vien-tran-cong-luc-18</strong></a></span>
+						<span>
+							I am a young, enthusiastic, open-hearted, and responsible individual with four years of experience as a <strong>Front End Engineer</strong>. My primary tech stack includes <strong>Javascript</strong>, Typescript, <strong>ReactJs</strong>, and NextJs. 
+						</span>
+						<!-- <br/> -->
+						<span>
+							I have a passion for sharing my Front End knowledge with others. I have successfully developed a YouTube channel with more than 5,000 subscribers, where I consistently upload content related to Front End Development. 
+						</span>
+						<!-- <br /> -->
+						<span>
+							I also have crafted four comprehensive <strong>online courses</strong> to guide my students in coding skills. These courses can be accessed at <strong style="word-break: break-all;"><a style="font-style: italic; font-size: 0.8em;" href="https://zendvn.com/giang-vien-tran-cong-luc-18" target="_blank">https://zendvn.com/giang-vien-tran-cong-luc-18</a></strong>
+						</span>
+						<!-- </br/> -->
+						<span>
+							In addition, I am the <strong>author</strong> of the library <strong>Template Builder</strong> to help us building Email Marketing and Landing Pages quickly. You can access my library here: <strong><a style="font-style: italic; font-size: 0.8em;" href="https://www.npmjs.com/package/@luctc/template-builder" target="_blank">https://www.npmjs.com/package/@luctc/template-builder</a></strong>
+						</span>
 					</p>
 				</div>
 
@@ -608,7 +643,7 @@
 						<!-- Hello Health Group -->
 						<div data-v-674ab00c="" class="exp-block">
 							<div data-v-674ab00c="" class="left">
-								<div data-v-674ab00c="" class="position">Senior Software Engineer</div>
+								<div data-v-674ab00c="" class="position">Senior FrontEnd Engineer</div>
 								<div data-v-674ab00c="" class="time">01/2022 - Now</div>
 							</div>
 							<div data-v-674ab00c="" class="right">
@@ -618,11 +653,9 @@
 										<li class="description-sub">
 											<strong>Description:</strong>
 											<span>· Hello Health Group is the leading healthcare knowledge and services ecosystem in emerging Asia, operating 10 platforms across 9 markets in the local language.</span>
-											<span>· In my role as a <strong>Senior Software Engineer</strong>, I have a chance to work on many internal projects to bring success and value to the company.</span>
-											<span>· I am the author of the library <strong>Template Builder</strong> to help our company to build <strong>Email Marketing</strong> and <strong>Landing Page</strong> quickly.</span>
-											<span>· URL: <strong>https://www.npmjs.com/package/@luctc/template-builder</strong></span>
+											<span>· In my role as a <strong>Senior FrontEnd Engineer,</strong> I have a chance to work on many internal projects to bring success and value to the company.</span>
 										</li>
-										<li><strong>Tech Stack:</strong>Javascript, Typescript, <strong>ReactJs</strong>, <strong>NextJs</strong>, Ant Design, Rollup</li>
+										<li><strong>Tech Stack:</strong>Javascript, Typescript, <strong>ReactJs</strong>, <strong>NextJs</strong>, Ant Design</li>
 										<li class="description-sub">
 											<strong>Responsibilities:</strong>
 											<span>· Working closely with project managers and designers to deliver and improve features.</span>
@@ -639,12 +672,12 @@
 						<div data-v-674ab00c="" class="exp-block">
 							<div data-v-674ab00c="" class="left">
 								<div data-v-674ab00c="" class="position">Front End Developer</div>
-								<div data-v-674ab00c="" class="time">03/2020 - 12/2021</div>
+								<div data-v-674ab00c="" class="time">10/2019 - 12/2021</div>
 							</div>
 							<div data-v-674ab00c="" class="right">
 								<div data-v-674ab00c="" class="company">Ekino VietNam</div>
 								<div class="description">
-									<ul>
+									<ul >
 										<li><strong>Project:</strong>HealthCare Locator (HCL)</li>
 										<li><strong>Description:</strong>Building a web application and a HealthCare Locator SDK to integrate with other apps</li>
 										<li><strong>Team Size:</strong>10+</li>
@@ -656,13 +689,27 @@
 										<li><strong>Role:</strong>Front End Developer</li>
 										<li class="description-sub">
 											<strong>Responsibilities:</strong>
-											<span>· Implementing Web Components using Stencil and GraphQL.</span>
-											<span>· Building a provisioning tool to allow administrator to manage packages.</span>
-											<span>· Building a web application to help users can access and order packages to get API Keys and integrate HCL SDK in their apps.</span>
-											<span>· Customizing UIs and Authentication Flow using Azure AD B2C custom policies</span>
+											<span>· Implementing Web Components through Stencil and GraphQL.</span>
+											<span>· Developing a provisioning tool to empower administrators in managing packages.</span>
+											<span>· Creating a web application to facilitate user access and package ordering for obtaining API Keys, along with integrating the HCL SDK into their applications.</span>
+											<span>· Tailoring UIs and Authentication Flow by leveraging Azure AD B2C custom policies."</span>
 										</li>
 									</ul>
-									<ul class="description-list-block">
+								</div>
+							</div>
+						</div>
+
+						<div class="pagebreak"> </div>
+						<!-- Ekino new page -->
+						<div data-v-674ab00c="" class="exp-block">
+							<div data-v-674ab00c="" class="left">
+								<div data-v-674ab00c="" class="position">Front End Developer</div>
+								<div data-v-674ab00c="" class="time">10/2019 - 12/2021</div>
+							</div>
+							<div data-v-674ab00c="" class="right">
+								<div data-v-674ab00c="" class="company">Ekino VietNam</div>
+								<div class="description">
+									<ul>
 										<li><strong>Project:</strong>Bouygues Print</li>
 										<li><strong>Description:</strong>Building a web application for Bouygues company to build content and print PDF</li>
 										<li><strong>Team Size:</strong>4</li>
@@ -749,7 +796,7 @@
 								</div>
 							</div>
 						</div>
-						<div data-v-674ab00c="" class="exp-block">
+						<!-- <div data-v-674ab00c="" class="exp-block">
 							<div data-v-674ab00c="" class="left">
 								<div data-v-674ab00c="" class="position">Front End Developer</div>
 								<div data-v-674ab00c="" class="time">11/2016 - 12/2017</div>
@@ -765,7 +812,7 @@
 									</ul>
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 
